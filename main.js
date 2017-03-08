@@ -1,5 +1,6 @@
 // Add in external javascript file
 
+alert("Hello World");
 $(document).ready(function () { // we must wait for the DOM to be ready as the browser can take a little while to read all of the HTML and build the elements
 
 	$(".circle").on("click", function (e) {
